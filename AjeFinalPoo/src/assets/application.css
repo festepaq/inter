@@ -1,0 +1,115 @@
+.root{
+	-fx-background-color:#D3D3D3;
+	-fx-background-image: url('bg.jpg');
+    -fx-background-size:cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+.label{
+	-fx-font-size:15pt;
+	-fx-text-fill:#3c2c20;
+	
+	-fx-background-color:Transparent;
+    -fx-background-size:contain;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+.button{
+	-fx-font-size:1.6em;
+	-fx-text-fill:#3c2c20;
+	
+	-fx-background-color:Transparent;
+    -fx-background-size:contain;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    
+    -fx-padding:3em;
+    
+}
+.roundedButton{
+	-fx-background-image: url('plainRoundedButton.png');
+}
+.squareButton{
+	-fx-background-image: url('plainSquareButton.png');
+}
+.curvedButton{
+	-fx-background-image: url('plainCurvedButton.png');
+}
+
+#labelChess{
+	
+	-fx-background-image: url('title.png');
+    -fx-background-size:contain;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+#tablero{
+	-fx-background-image: url('tablero.jpg');
+    -fx-background-size:contain;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+
+.tablaJugadas{
+	-fx-background-image: url('jugadasPane.png');
+    -fx-background-size:contain;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+.tablaJugadas .label{
+	-fx-font-size: 10pt;
+}
+
+.enroqueButton{
+	-fx-font-size:0.8em;
+	-fx-text-fill:#3c2c20;
+	
+	-fx-text-align: center;
+	
+    -fx-background-size:contain;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    
+    -fx-padding:0em;
+    
+	-fx-opacity: 0.3;
+    
+}
+.enroqueButton.enroqueCortoButton{
+	-fx-background-image: url('enroqueCortoButton.png');
+}
+.enroqueButton.enroqueLargoButton{
+	-fx-background-image: url('enroqueLargoButton.png');
+}
+.enroqueButton.show{
+	-fx-opacity: 1;
+}
+
+.ventanaAhogadoTitle{
+	-fx-background-image: url('ventanaAhogadoTitle.png');
+}
+.ventanaGanarBlancasTitle{
+	-fx-background-image: url('jaqueMateBlancoTitle.png');
+}
+.ventanaGanarNegrasTitle{
+	-fx-background-image: url('jaqueMateNegroTitle.png');
+}
+.ventanaAhogadoButton,.ventanaGanarButton{
+	-fx-font-size:1em;
+    -fx-padding:2em;
+}
+.alertaButton{
+	-fx-font-size:1em;
+    -fx-padding:2em;
+}
+.alertaLabel{
+	-fx-font-size:10pt;
+	-fx-text-fill:#B01313;
+}
+.confirmLabel{
+	-fx-font-size:10pt;
+}
